@@ -1,0 +1,161 @@
+/* General Section Padding */
+.section {
+  padding-top: 15vh;
+  padding-left: 3vw;
+}
+
+.sec-section {
+  padding-top: 10vh;
+  padding-left: 3vw;
+}
+
+@media (max-width: 767.98px) {
+  .section {
+    padding-top: 10vh;
+  }
+
+  .sec-section {
+    padding-top: 5vh;
+  }
+}
+
+/* Main Heading */
+.main-heading {
+  font-size: calc(1rem + 1.5vw);
+  font-weight: 700;
+  color: rgb(33, 37, 41);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+  animation: fadeInUp 0.8s ease-out both;
+}
+
+.sec-heading {
+  font-size: calc(0.5rem + 1.5vw);
+  font-weight: 700;
+  color: rgb(33, 37, 41);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  animation: fadeInUp 0.8s ease-out both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Info Bar */
+.info-bar {
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #813434;
+}
+
+.highlight .icon {
+  color: #813434;
+}
+
+.highlight {
+  transition: transform 0.2s ease;
+}
+
+.highlight:hover {
+  transform: scale(1.02);
+}
+
+.item {
+  font-size: 14px;
+}
+
+@media (max-width: 767.98px) {
+  .info-bar {
+    flex-direction: column;
+  }
+
+  .item {
+    margin-bottom: 10px;
+  }
+}
+
+.info-bar a {
+  text-decoration: none;
+  color: #813434;
+  font-weight: 600;
+}
+
+.info-bar a:hover {
+  text-decoration: none;
+  color: #a14545;
+}
+
+.education-content {
+  max-width: 90%;
+  font-size: 14px;
+  color: rgb(33, 37, 41);
+}
+
+.education-content ul {
+  padding-left: 20px;
+}
+
+.education-content li {
+  margin-bottom: 5px;
+  color: #813434;
+  list-style-type: square;
+}
+
+.btn-toggle {
+  background-color: transparent;
+  border: none;
+  color: #813434;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: underline;
+  padding: 0;
+  font-weight: bold; /* Added for consistency with headings */
+}
+
+.education-content ul {
+  display: block;
+}
+
+.education-content ul li {
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.education-content ul li {
+  margin-bottom: 10px;
+}
+
+/* Hide content by default */
+.education-content ul:nth-child(n + 7) {
+  display: none;
+}
+
+/* Show content when the button is clicked */
+.education-content .is-content-visible ul li:nth-child(n + 7) {
+  display: block;
+}
+
+/* Styling for the "Show More"/"Show Less" Button */
+.btn-toggle {
+  color: #813434;
+  font-weight: bold;
+  text-decoration: underline;
+}

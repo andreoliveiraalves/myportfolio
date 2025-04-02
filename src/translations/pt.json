@@ -1,0 +1,35 @@
+{
+    "about": {
+        "heading": "VAMOS CONSTRUIR ALGO INCRÍVEL JUNTOS!",
+        "info": [
+            {
+                "text": "OPO, Portugal",
+                "icon": "mdiCityVariantOutline",
+                "type": "text",
+                "class": "highlight"
+            },
+            {
+                "text": "andreoliveiraalves1996vc@gmail.com",
+                "icon": "mdiEmailOutline",
+                "type": "email",
+                "class": "highlight"
+            },
+            {
+                "text": "+351918072504",
+                "icon": "mdiCellphone",
+                "type": "phone",
+                "class": "highlight"
+            }
+        ]
+    },
+    "sidebar": {
+        "role": "PROGRAMADOR WEB",
+        "about": "SOBRE MIM",
+        "education": "EDUCAÇÃO",
+        "skills": "SKILLS",
+        "experience": "EXPERIÊNCIA",
+        "portfolio": "PORTFÓLIO",
+        "hobbies": "HOBBIES",
+        "contact": "CONTACTOS"
+    }
+}
